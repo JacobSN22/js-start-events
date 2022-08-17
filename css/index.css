@@ -1,0 +1,17 @@
+form {
+    margin-left: 42vw;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+fieldset {
+    width: 230px;
+    border-radius: 10px;
+}

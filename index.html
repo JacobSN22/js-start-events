@@ -8,12 +8,13 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/events.js" defer></script>
 </head>
 
 <body>
     <form>
+        <fieldset>
         <label for="cow">Skriv ko:</label><br>
         <input type="text" id="cow" name="cow"><br>
 
@@ -24,7 +25,16 @@
         <label for="moose">Skriv elg:</label><br>
         <input type="text" id="moose" name="moose"><br>
 
+        <select name="" id="">
+            <option value="fulg">Fugl</option>
+            <option value="fisk">Fisk</option>
+            <option value="reptil">Reptil</option>
+            <option value="insekt">Insekt</option>
+            <option value="pattedyr">Pattedyr</option>
+        </select><br>
+
         <button type="button" id="evaluateForm">valider form</button>
+    </fieldset>
     </form>
 </body>
 
