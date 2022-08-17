@@ -12,8 +12,9 @@
     <script src="js/events.js" defer></script>
 </head>
 
-<body>
-    <form>
+<body id="backgroundColor">
+    <button id="remove">Fjernform</button>
+    <form id="form">
         <fieldset>
         <label for="cow">Skriv ko:</label><br>
         <input type="text" id="cow" name="cow"><br>
@@ -25,8 +26,8 @@
         <label for="moose">Skriv elg:</label><br>
         <input type="text" id="moose" name="moose"><br>
 
-        <select name="" id="">
-            <option value="fulg">Fugl</option>
+        <select name="" id="select">
+            <option value="fugl">Fugl</option>
             <option value="fisk">Fisk</option>
             <option value="reptil">Reptil</option>
             <option value="insekt">Insekt</option>
@@ -36,6 +37,8 @@
         <button type="button" id="evaluateForm">valider form</button>
     </fieldset>
     </form>
+
+    <p id="text"></p>
 </body>
 
 </html>

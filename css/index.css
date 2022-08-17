@@ -16,3 +16,8 @@ fieldset {
     width: 230px;
     border-radius: 10px;
 }
+
+p {
+    margin-left: 42vw;
+    font-size: 1.5em;
+}
